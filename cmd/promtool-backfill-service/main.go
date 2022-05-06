@@ -8,6 +8,8 @@ import (
 	"os"
 
 	"github.com/sirupsen/logrus"
+
+	"github.com/MartinWeindel/promtool-backfill-service/cmd/promtool-backfill-service/app"
 )
 
 func main() {

@@ -10,7 +10,7 @@ type promtoolBackfillService struct {
 
 func NewCommand(log logrus.FieldLogger) *cobra.Command {
 	app := &promtoolBackfillService{}
-	cmd = &cobra.Command{
+	cmd := &cobra.Command{
 		Use:   "promtool-backfill-service",
 		Short: "Prometheus promtool backfill service",
 		RunE:  app.run,
