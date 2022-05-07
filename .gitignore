@@ -5,3 +5,5 @@ bin/
 tmp/
 local/
 .vscode/
+promtool-backfill-service
+/data
